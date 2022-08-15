@@ -10,6 +10,7 @@ import static org.junit.matchers.JUnitMatchers.*;
 import org.junit.*;
 import org.junit.experimental.categories.Category;
 import org.junit.rules.ExpectedException;
+import org.junit.rules.Timeout;
 
 
 public class TrackingServiceTest {
@@ -71,10 +72,12 @@ public class TrackingServiceTest {
         service.setGoal(-5);
     }
 
-    @Test(timeout = 200)
+    @Rule
+    public Timeout timeout = new Timeout(20);
+
+    @Test
     public void BadTest() {
-        for (int i = 0; i < 10000000; i++) {
+        for (int i = 0; i < 10000000; i++)
             service.addProtein(1);
-        }
     }
 }
