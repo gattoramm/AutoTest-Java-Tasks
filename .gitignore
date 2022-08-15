@@ -2,4 +2,4 @@
 AutoTest-Java-Tasks.iml
 *.class  
 out/*
-.JUnitTestTask/target/*
+JUnitTestTask/target/*
