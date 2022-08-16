@@ -11,7 +11,7 @@ import java.util.List;
 
 @RunWith(Parameterized.class)
 public class ParameterizedTests {
-    private static TrackingService service = new TrackingService();
+    private static TrackingService service = new TrackingService(new NotifierStub());
     private int input;
     private int expected;
 
