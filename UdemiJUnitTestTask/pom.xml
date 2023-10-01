@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>Baeldung_Hamcrest</artifactId>
+    <artifactId>UdemiJUnitTestTask</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
@@ -15,18 +15,10 @@
             <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>org.hamcrest</groupId>
-            <artifactId>hamcrest-core</artifactId>
-            <version>2.2</version>
-            <scope>test</scope>
-        </dependency>
     </dependencies>
-
     <properties>
         <maven.compiler.source>18</maven.compiler.source>
         <maven.compiler.target>18</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
 </project>
