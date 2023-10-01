@@ -1,5 +1,6 @@
 
 .idea
 AutoTest-Java-Tasks.iml
+*.iml
 out
 target
