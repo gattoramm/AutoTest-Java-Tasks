@@ -1,6 +1,5 @@
-.idea/*
+
+.idea
 AutoTest-Java-Tasks.iml
-*.class  
-out/*
-JUnitTestTask/target/*
-*.iml
+out
+target
