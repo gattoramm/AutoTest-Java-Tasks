@@ -1,4 +1,4 @@
-package org.example;
+package labs;
 
 import java.io.FileInputStream;
 import java.io.IOException;

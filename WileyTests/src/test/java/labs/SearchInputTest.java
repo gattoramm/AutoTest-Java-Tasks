@@ -1,4 +1,4 @@
-package org.example;
+package labs;
 
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
